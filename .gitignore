@@ -1,0 +1,20 @@
+@"
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (contains passwords!)
+.env
+*/.env
+
+# Build output
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
